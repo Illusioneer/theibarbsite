@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Theibarb</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+Your session data: <%= session %>
+<br>
+Your auth_session data: <%= request.env['omniauth.auth']%>
+
+<div id="user_nav">
+	<% if current_user %>
+	  Welcome <%= current_user.name %>!<br>
+	  Your user id is <%= current_user.user_id %><br>
+	  <%= link_to "Sign Out", signout_path %>
+	<% else %>
+	  <h1>Sign in with:</h1>
+	  <%= link_to "Twitter", "/auth/twitter" %>
+	  <%= link_to "Facebook", "/auth/facebook" %>
+	<% end %>
+	
+</div>
+<%= yield %>
+
+</body>
+</html>

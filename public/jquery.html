@@ -1,0 +1,31 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script>
+$.ajaxSetup ({  
+        cache: false  
+    });  
+var ajax_load = "<img src='img/load.gif' alt='loading...' />";
+$(document).ready(function(){
+    var loadUrl = "http://intellectualbarbarian.com/";  
+    $("#clickme").click(function(){  
+//	alert("loading");
+        $("div#glados").html(ajax_load).load(loadUrl + '#user_nav');  
+    });
+});
+
+//  load() functions  
+
+
+</script>
+
+
+
+<body>
+
+<h1 id='clickme'>HI</h1>
+
+<div id='glados'>blah blah blah</div>
+
+
+</body>
+
