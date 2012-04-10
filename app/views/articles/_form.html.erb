@@ -35,7 +35,7 @@
     <%= f.label :tags %><br />
     <%= f.text_field :tags %>
   </div>
-	<%= f.hidden_field :author, :value => current_user.user_id%>
+	<% f.hidden_field :author, :value => "Unlisted Author"%>
   <div class="actions">
     <%= f.submit %>
   </div>

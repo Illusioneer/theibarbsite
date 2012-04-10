@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
 
-  before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
+  #before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
     @articles = Article.all
@@ -46,7 +46,7 @@ class ArticlesController < ApplicationController
   # POST /articles.json
   def create
     params[:article]['tags'] = params[:article]['tags'].split(',')
-    params[:author] = current_user.user_id
+    params[:author] = "Anonymous Author"
     @article = Article.new(params[:article])
 
     respond_to do |format|
@@ -88,9 +88,9 @@ class ArticlesController < ApplicationController
       format.html { redirect_to articles_url }
       format.json { head :ok }
     end
-  end
+    end
   def feed
-    @posts = Post.all(:select => "title, author, id, content, posted_at", :order => "posted_at DESC", :limit => 20) 
+    @articles = Article.all(sort: [[ :published_on, :desc ]])
 
     respond_to do |format|
       format.html
@@ -98,15 +98,3 @@ class ArticlesController < ApplicationController
     end
   end
 end
-
- 
- # FEED makes the feed for rss  
-def feed
-    @articles = Article.all
-
-    respond_to do |format|
-      format.html
-      format.rss { render :layout => false } #index.rss.builder
-    end
-end
-

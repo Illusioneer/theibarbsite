@@ -24,6 +24,7 @@ gem "omniauth-google-oauth2"
 gem "cancan", ">= 1.6.7"
 gem "geoip"
 gem "formtastic", ">=2.0.0"
+gem "omniauth-password"
 
 # Gems used only for assets and not required
 # in production environments by default.

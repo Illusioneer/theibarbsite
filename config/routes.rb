@@ -1,5 +1,5 @@
 Theibarb::Application.routes.draw do
-  get "index/show"
+  get "index/feed"
 
   get "index/new"
 
@@ -80,23 +80,23 @@ Theibarb::Application.routes.draw do
   
   resources :admin
 
-  class GeoRestricter
-    def self.matches?(request)      
-      geo = GeoIP.new('/usr/local/bin/GeoIP.dat')
-      geo.country(request.ip).country_name == "United States"
-    end
-  end    
+  #class GeoRestricter
+   # def self.matches?(request)
+    #  geo = GeoIP.new('/usr/local/bin/GeoIP.dat')
+   #   geo.country(request.ip).country_name == "United States"
+   # end
+  #end
   
-  constraints GeoRestricter do
-    match "/hello" => proc { |env| [200, {}, ["Hello Rack!"]] }
-    match "/art/:id" => redirect("/articles/%{id}")
-  end
+  #constraints GeoRestricter do
+   # match "/hello" => proc { |env| [200, {}, ["Hello Rack!"]] }
+   # match "/art/:id" => redirect("/articles/%{id}")
+  #end
   #, :only => [ :show, :edit, :update ]
 
-  ArticlUrl = "/#{Article.all.first.name}/:id"
+  ArticleUrl = "/#{Article.all.first.name}/:id"
   FarticleUrl = "articles#show"
 
-  match ArticlUrl => FarticleUrl
+  match ArticleUrl => FarticleUrl
   NameMatch = Article.first.name
 
   match '/auth/:provider/callback' => 'sessions#create'
@@ -106,5 +106,7 @@ Theibarb::Application.routes.draw do
   match '/signout' => 'sessions#destroy', :as => :signout
 
   match '/auth/failure' => 'sessions#failure'
+
+  match '/feeds' => 'articles#feed', :as => :feed,  :defaults => { :format => 'rss' }
   
 end
