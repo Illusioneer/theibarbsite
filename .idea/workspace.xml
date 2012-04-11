@@ -22,28 +22,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="330" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="articles_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="7" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-31.4">
+            <state line="97" column="7" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-58.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="omniauth.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="413" selection-start="724" selection-end="724" vertical-scroll-proportion="-17.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="402" selection-start="813" selection-end="813" vertical-scroll-proportion="0.25396827">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="omniauth.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="459" selection-end="459" vertical-scroll-proportion="0.17460318">
+            <state line="9" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +72,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+            <state line="24" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="-14.4">
               <folding />
             </state>
           </provider>
@@ -61,41 +81,8 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="37" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1333945837000" expanded="true" signature="36:80" placeholder="..." />
-                <marker date="1333945837000" expanded="true" signature="84:127" placeholder="..." />
-                <marker date="1333945837000" expanded="true" signature="131:190" placeholder="..." />
-                <marker date="1333945837000" expanded="true" signature="194:250" placeholder="..." />
-                <marker date="1333945837000" expanded="true" signature="254:337" placeholder="..." />
-                <marker date="1333945837000" expanded="true" signature="295:330" placeholder="do ... end" />
-                <marker date="1333945837000" expanded="true" signature="343:536" placeholder="if ... end" />
-                <marker date="1333945837000" expanded="true" signature="405:526" placeholder="for ... end" />
-                <marker date="1333945837000" expanded="true" signature="600:753" placeholder="do ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="435" selection-start="979" selection-end="979" vertical-scroll-proportion="-25.625">
-              <folding>
-                <marker date="1333944510000" expanded="true" signature="23:986" placeholder="do ... end" />
-                <marker date="1333944510000" expanded="true" signature="38:347" placeholder="if ... end" />
-                <marker date="1333944510000" expanded="true" signature="96:337" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="214:326" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="260:312" placeholder="do ... end" />
-                <marker date="1333944510000" expanded="true" signature="382:475" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="399:464" placeholder="{...}" />
-                <marker date="1333944510000" expanded="true" signature="427:458" placeholder="{&quot;theme&quot;: 'advanced'...}" />
-                <marker date="1333944510000" expanded="true" signature="498:568" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="590:665" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="687:774" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="796:866" placeholder="..." />
-                <marker date="1333944510000" expanded="true" signature="948:977" placeholder="..." />
-              </folding>
+            <state line="0" column="212" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,15 +91,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="417" selection-start="125" selection-end="125" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed.rss.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/feed.rss.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="445" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,19 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/mongoid.yml" />
-        <option value="$PROJECT_DIR$/gitter.sh" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/articles.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/articles/feed.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.rss.builder" />
         <option value="$PROJECT_DIR$/app/views/articles/feed.rss.builder" />
         <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -189,7 +170,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="RailsProjectView" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -251,8 +232,8 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -265,12 +246,12 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
+              <option name="myItemId" value="Javascripts" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsPredefinedGroupFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -303,6 +284,72 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ArticlesController" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArticlesController" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ActionNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArticlesController" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feed" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ActionNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibarbsite" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ControllersFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArticlesController" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ControllerClassNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ActionNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -381,7 +428,74 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ibarbsite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ibarbsite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ibarbsite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ibarbsite">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="javascripts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -781,32 +895,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gitter.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="357" selection-start="157" selection-end="157" vertical-scroll-proportion="0.07936508" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="34" selection-end="34" vertical-scroll-proportion="0.015873017" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/articles.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="73" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1333773394000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/feed.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
@@ -828,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/node.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="101" column="330" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0">
@@ -842,9 +923,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="430" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="41" column="435" selection-start="979" selection-end="979" vertical-scroll-proportion="-25.625">
           <folding />
         </state>
       </provider>
@@ -856,62 +937,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/node.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1333945837000" expanded="true" signature="36:80" placeholder="..." />
-            <marker date="1333945837000" expanded="true" signature="84:127" placeholder="..." />
-            <marker date="1333945837000" expanded="true" signature="131:190" placeholder="..." />
-            <marker date="1333945837000" expanded="true" signature="194:250" placeholder="..." />
-            <marker date="1333945837000" expanded="true" signature="254:337" placeholder="..." />
-            <marker date="1333945837000" expanded="true" signature="295:330" placeholder="do ... end" />
-            <marker date="1333945837000" expanded="true" signature="343:536" placeholder="if ... end" />
-            <marker date="1333945837000" expanded="true" signature="405:526" placeholder="for ... end" />
-            <marker date="1333945837000" expanded="true" signature="600:753" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="435" selection-start="979" selection-end="979" vertical-scroll-proportion="-25.625">
-          <folding>
-            <marker date="1333944510000" expanded="true" signature="23:986" placeholder="do ... end" />
-            <marker date="1333944510000" expanded="true" signature="38:347" placeholder="if ... end" />
-            <marker date="1333944510000" expanded="true" signature="96:337" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="214:326" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="260:312" placeholder="do ... end" />
-            <marker date="1333944510000" expanded="true" signature="382:475" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="399:464" placeholder="{...}" />
-            <marker date="1333944510000" expanded="true" signature="427:458" placeholder="{&quot;theme&quot;: 'advanced'...}" />
-            <marker date="1333944510000" expanded="true" signature="498:568" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="590:665" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="687:774" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="796:866" placeholder="..." />
-            <marker date="1333944510000" expanded="true" signature="948:977" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="7" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-31.4">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+        <state line="24" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="-14.4">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="459" selection-end="459" vertical-scroll-proportion="0.17460318">
+        <state line="9" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="212" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="430" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="7" selection-start="2574" selection-end="2574" vertical-scroll-proportion="-58.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="413" selection-start="724" selection-end="724" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="402" selection-start="813" selection-end="813" vertical-scroll-proportion="0.25396827">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

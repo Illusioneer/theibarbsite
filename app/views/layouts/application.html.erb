@@ -2,6 +2,10 @@
 <html>
 <head>
   <title>Theibarb</title>
+  <%= javascript_tag do %>
+      sessiondata = "<%=session%>";
+  <% end %>
+
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%=  auto_discovery_link_tag :rss, '/feeds.rss' %>
@@ -9,9 +13,8 @@
 </head>
 <body>
 
-Your session data: <%= session %>
 <br>
-Your auth_session data: <%= request.env['omniauth.auth']%>
+<h2 id="session">Your auth_session data:</h2> <%= request.env['omniauth.auth']%>
 
 <div id="user_nav">
 	<% if current_user %>

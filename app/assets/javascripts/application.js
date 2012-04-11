@@ -9,3 +9,8 @@
 //= require tinymce-jquery
 //= require_tree .
 
+$(document).ready(function(){
+    $('h2#session').click(function(){
+        noty({"text": sessiondata,"layout":"bottomLeft","type":"information","animateOpen":{"height":"toggle"},"animateClose":{"height":"toggle"},"speed":500,"timeout":5000,"closeButton":false,"closeOnSelfClick":true,"closeOnSelfOver":false});
+    })
+})
