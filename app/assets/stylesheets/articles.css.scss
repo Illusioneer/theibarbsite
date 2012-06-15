@@ -2,4 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "application.css.scss"; 
+@import "application.css.scss";
+
+#articles {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 600px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  margin-bottom: 20px;
+  background-color: lightcyan;
+  div {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    &:nth-child(odd) {
+      background-color: lightcyan;
+    }
+    &:nth-child(even) {
+      background-color: lightblue;
+    }
+    &:first-child {
+      background-color: lightcoral;
+      &:hover{
+        background-color: coral;
+      }
+    }
+  }
+
+}

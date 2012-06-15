@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
 
-  #before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
+  before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
     @articles = Article.all
@@ -19,7 +19,6 @@ class ArticlesController < ApplicationController
   # GET /articles/1.json
   def show
     @article = Article.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @article }
@@ -87,7 +86,8 @@ class ArticlesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to articles_url }
       format.json { head :ok }
-    end
+      format.js   { render :nothing => true }  
+  end
     end
   def feed
     @articles = Article.all(sort: [[ :published_on, :desc ]])
