@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
 
-  before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
+  #before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
     @articles = Article.all
@@ -18,7 +18,7 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
-    @article = Article.find(params[:id])
+    @article = Article.where(title_slug: params[:id]).all.first
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @article }
@@ -45,12 +45,13 @@ class ArticlesController < ApplicationController
   # POST /articles.json
   def create
     params[:article]['tags'] = params[:article]['tags'].split(',')
+    params[:article]['title_slug'] = params[:article]['name'].gsub(" ","_")
     params[:author] = "Anonymous Author"
     @article = Article.new(params[:article])
 
     respond_to do |format|
       if @article.save
-        format.html { redirect_to @article, notice: 'Article was successfully created.' }
+        format.html { redirect_to article_path(@article.title_slug), notice: 'Article was successfully created.' }
         format.json { render json: @article, status: :created, location: @article }
       else
         format.html { render action: "new" }
@@ -63,12 +64,12 @@ class ArticlesController < ApplicationController
   # PUT /articles/1.json
   def update
     params[:article]['tags'] = params[:article]['tags'].split(',')
-    params[:author] = current_user.user_id
+    #params[:author] = current_user.user_id
     @article = Article.find(params[:id])
 
     respond_to do |format|
       if @article.update_attributes(params[:article])
-        format.html { redirect_to @article, notice: 'Article was successfully updated.' }
+        format.html { redirect_to article_path(@article.title_slug), notice: 'Article was successfully updated.' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }

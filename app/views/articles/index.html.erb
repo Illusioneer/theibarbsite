@@ -5,17 +5,18 @@
 <div>
     <p><%= article.name %></p>
     <p><%= article.content.html_safe %></p>
+    <%= link_to 'Show', article_path(article.title_slug)  %>
     <% if current_user && current_user.name == "Bryan Owens" %>
-        <span><%= link_to 'Show', article %> <%= link_to 'Edit', edit_article_path(article) %></span>
+        <span><%= link_to 'Edit', edit_article_path(article) %></span>
         <p><%= link_to 'Destroy', article, confirm: 'Are you sure?', method: :delete ,  :remote=>true, :class=>'delete_post'%></p>
     <% end %>
 </div>
 <% end %>
 </table>
 </div>
-<br />
+<br/>
 
 
 
-
+stop-bugging-me
 <%= link_to 'New Article', new_article_path %>

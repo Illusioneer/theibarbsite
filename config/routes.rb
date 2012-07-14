@@ -93,11 +93,15 @@ Theibarb::Application.routes.draw do
   #end
   #, :only => [ :show, :edit, :update ]
 
-  ArticleUrl = "/#{Article.all.first.name}/:id"
-  FarticleUrl = "articles#show"
+  #ArticleUrl = "/articles/:title_slug"
+  #FarticleUrl = "articles#show"
 
-  match ArticleUrl => FarticleUrl
-  NameMatch = Article.first.name
+  #match ArticleUrl => FarticleUrl
+
+  match '/admin' => 'admin#index'
+
+  match '/articles/:title_slug' => 'articles#show'
+  #NameMatch = Article.first.name
 
   match '/auth/:provider/callback' => 'sessions#create'
 

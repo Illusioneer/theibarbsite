@@ -19,15 +19,15 @@
     padding: 5px 10px;
     font-size: 12px;
     margin: 0;
-    color: #fff;
+    color: black;
     &:nth-child(odd) {
-      background-color: lightcyan;
+      background-color: lightgray;
     }
     &:nth-child(even) {
-      background-color: lightblue;
+      background-color: white;
     }
     &:first-child {
-      background-color: lightcoral;
+      background-color: gray;
       &:hover{
         background-color: coral;
       }

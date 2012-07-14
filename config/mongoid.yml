@@ -1,5 +1,5 @@
 development:
-  host: 192.168.1.147
+  host: localhost
   database: theibarb_dev
   #username: railsapp
   #password: railscasts3
@@ -18,6 +18,5 @@ production:
   database: <%= ENV['MONGOID_DATABASE'] %>
   # slaves:
   #   - host: slave1.local
-  #     port: 27018
-  #   - host: slave2.local
+  #     port: 27018                      #   - host: slave2.local
   #     port: 27019
