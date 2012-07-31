@@ -4,7 +4,7 @@ class Article
   field :title, :type => String
   field :title_slug, :type => String
   field :author, :type => String
-  field :content, :type => String
+  field :content, :type => String, :label => "Content", :subtype => "textbox"
   field :tags,  :type => Array 
   field :published_on, :type => Time, :default => Time.now
   field :updated_on, :type => Time, :default => Time.now

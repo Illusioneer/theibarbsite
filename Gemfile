@@ -27,8 +27,9 @@ gem "formtastic", ">=2.0.0"
 gem "omniauth-identity"
 gem "jquery-rails"
 gem "carrierwave"
-gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem "carrierwave-mongoid", :require => "carrierwave/mongoid"
 gem "rmagick"
+gem "simple_form"
 
 # Gems used only for assets and not required
 # in production environments by default.

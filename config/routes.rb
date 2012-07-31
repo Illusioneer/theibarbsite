@@ -1,4 +1,16 @@
 Theibarb::Application.routes.draw do
+  get "nodes/index"
+
+  get "nodes/new"
+
+  get "nodes/create"
+
+  get "nodes/edit"
+
+  get "nodes/delete"
+
+  get "nodes/update"
+
   get "index/feed"
 
   get "index/new"
@@ -13,7 +25,11 @@ Theibarb::Application.routes.draw do
 
   resources :articles do
     resources :comments 
-  end   
+  end
+
+  resources :nodes do
+
+  end
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
