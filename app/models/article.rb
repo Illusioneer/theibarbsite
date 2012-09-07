@@ -11,7 +11,7 @@ class Article
   field :image, :type => String
   embeds_many :comments
 
-  mount_uploader :image, ImageUploader
+#  mount_uploader :image, ImageUploader
   
 #  def to_param 
  #   "#{name.gsub(/[^a-z0-9]+/i, '-')}"
