@@ -109,8 +109,8 @@ Theibarb::Application.routes.draw do
   #end
   #, :only => [ :show, :edit, :update ]
 
-  #ArticleUrl = "/articles/:title_slug"
-  #FarticleUrl = "articles#show"
+  ArticleUrl = "/articles/:title_slug"
+  FarticleUrl = "articles#show"
 
   #match ArticleUrl => FarticleUrl
 
