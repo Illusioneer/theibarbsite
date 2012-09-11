@@ -16,4 +16,6 @@
 </div>
 <br/>
 
-<%= link_to 'New Article', new_article_path %>
+<% if current_user && current_user.name == "Bryan Owens" %>
+  <%= link_to 'New Article', new_article_path %>
+<% end %>
