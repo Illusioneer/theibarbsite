@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
 
-  #before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
+  before_filter :require_auth, :only => [:new, :create, :edit, :update, :destroy]
 
   def index
     @articles = Article.all
