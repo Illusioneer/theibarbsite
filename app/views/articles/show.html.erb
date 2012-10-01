@@ -2,6 +2,13 @@
 
 You are reading this with: <%= request.env['HTTP_USER_AGENT'] %>
 
+<meta property="og:title" content="The Intellectual Barbarian"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:image" content="http://profile.ak.fbcdn.net/hprofile-ak-ash4/195792_110075655703379_1462962745_q.jpg"/>
+<meta property="og:url" content="http://www.intellectualbarbarian.com"/>
+<meta property="og:site_name" content="The Intellectual Barbarian"/>
+<meta property="fb:admins" content="257664194288991"/>
+
 <%= @article.class %>
 
 <p>
@@ -45,6 +52,9 @@ You are reading this with: <%= request.env['HTTP_USER_AGENT'] %>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
+
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2F<%article_path(article.title_slug)%>%2F&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+<iframe src="http://www.facebook.com/plugins/comments.php?href=<%article_path(article.title_slug)%>&permalink=1" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:16px;" allowTransparency="true"></iframe>
 
 <html>
 
