@@ -114,19 +114,19 @@ Theibarb::Application.routes.draw do
 
   #match ArticleUrl => FarticleUrl
 
-  match '/admin' => 'admin#index'
+#  match '/admin' => 'admin#index'
 
-  match '/articles/:title_slug' => 'articles#show'
+  # match '/articles/:title_slug' => 'articles#show'
   #NameMatch = Article.first.name
 
-  match '/auth/:provider/callback' => 'sessions#create'
-
-  match '/signin' => 'sessions#new', :as => :signin
-
-  match '/signout' => 'sessions#destroy', :as => :signout
-
-  match '/auth/failure' => 'sessions#failure'
-
-  match '/feeds' => 'articles#feed', :as => :feed,  :defaults => { :format => 'rss' }
+  # match '/auth/:provider/callback' => 'sessions#create'
+  #
+  # match '/signin' => 'sessions#new', :as => :signin
+  #
+  # match '/signout' => 'sessions#destroy', :as => :signout
+  #
+  # match '/auth/failure' => 'sessions#failure'
+  #
+  # match '/feeds' => 'articles#feed', :as => :feed,  :defaults => { :format => 'rss' }
   
 end

@@ -1,17 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '>=3.2.3'
+gem 'rails', '>=4.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'pg'
 gem "sqlite3"
-gem "mongoid", '>= 2.3.3'
 gem "bson_ext"
-gem "tinymce-rails", "~> 3.4.7"
 gem "rspec-rails", ">= 2.6.1", :group => [:development, :test]
 gem "database_cleaner", ">= 0.6.7", :group => :test
-gem "mongoid-rspec", ">= 1.4.4", :group => :test
 gem "factory_girl_rails", ">= 1.1.0", :group => :test
 gem "cucumber-rails", ">= 1.0.2", :group => :test
 gem "capybara", ">= 1.0.1", :group => :test
@@ -26,10 +24,8 @@ gem "geoip"
 gem "formtastic", ">=2.0.0"
 gem "omniauth-identity"
 gem "jquery-rails"
-gem "carrierwave"
-gem "carrierwave-mongoid", :require => "carrierwave/mongoid"
 gem "rmagick"
-gem "simple_form"
+gem "puma"
 
 # Gems used only for assets and not required
 # in production environments by default.

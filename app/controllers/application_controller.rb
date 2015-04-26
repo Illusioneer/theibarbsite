@@ -9,7 +9,6 @@ class ApplicationController < ActionController::Base
     def current_user
       begin
         @current_user = User.where(user_id: session[:user_id]).first if session[:user_id]
-      rescue Mongoid::Errors::DocumentNotFound
         nil
       end
     end
@@ -37,5 +36,4 @@ class ApplicationController < ActionController::Base
           redirect_to articles_url
         end
       end
-    
 end
