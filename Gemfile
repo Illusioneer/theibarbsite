@@ -25,7 +25,8 @@ gem "formtastic", ">=2.0.0"
 gem "omniauth-identity"
 gem "jquery-rails"
 gem "rmagick"
-gem "puma"
+gem "unicorn"
+gem "dalli"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -46,6 +47,10 @@ end
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :development do
+  gem 'pry'
+end
 
 group :test do
   # Pretty printed test output
