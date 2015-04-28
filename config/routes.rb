@@ -1,36 +1,6 @@
 Theibarb::Application.routes.draw do
-  get "nodes/index"
+  resources :articles
 
-  get "nodes/new"
-
-  get "nodes/create"
-
-  get "nodes/edit"
-
-  get "nodes/delete"
-
-  get "nodes/update"
-
-  get "index/feed"
-
-  get "index/new"
-
-  get "index/edit"
-
-  get "index/create"
-
-  get "index/update"
-
-  get "index/destroy"
-
-  resources :articles do
-    resources :comments 
-  end
-
-  resources :nodes do
-
-  end
-  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -88,13 +58,7 @@ Theibarb::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
   
-  root :to => 'articles#index'
-
-  resources :users do
-    resources :authorizations
-  end
-  
-  resources :admin
+  #root :to => 'articles#index'
 
   #class GeoRestricter
    # def self.matches?(request)
@@ -108,13 +72,6 @@ Theibarb::Application.routes.draw do
    # match "/art/:id" => redirect("/articles/%{id}")
   #end
   #, :only => [ :show, :edit, :update ]
-
-  ArticleUrl = "/articles/:title_slug"
-  FarticleUrl = "articles#show"
-
-  #match ArticleUrl => FarticleUrl
-
-#  match '/admin' => 'admin#index'
 
   # match '/articles/:title_slug' => 'articles#show'
   #NameMatch = Article.first.name
