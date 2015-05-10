@@ -27,6 +27,7 @@ gem 'geoip'
 gem 'simple_form'
 gem 'therubyracer'
 gem 'execjs'
+gem 'tinymce-rails'
 
 group :assets do
   gem 'sass-rails',   '>= 3.1.5'
