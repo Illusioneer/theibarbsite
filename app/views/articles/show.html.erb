@@ -1,19 +1,23 @@
-<p id="notice"><%= notice %></p>
+<% cache @article.cache_key %>
 
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+    <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @article.content %>
-</p>
+    <p>
+      <strong>Title:</strong>
+      <%= @article.title %>
+    </p>
 
-<p>
-  <strong>Metadata:</strong>
-  <%= @article.metadata %>
-</p>
+    <p>
+      <strong>Content:</strong>
+      <%= @article.content %>
+    </p>
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+    <p>
+      <strong>Metadata:</strong>
+      <%= @article.metadata %>
+    </p>
+
+    <%= link_to 'Edit', edit_article_path(@article) %> |
+    <%= link_to 'Back', articles_path %>
+
+<% end %>
