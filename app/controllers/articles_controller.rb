@@ -3,7 +3,8 @@ class ArticlesController < ApplicationController
 
   # GET /articles
   def index
-    @articles = Article.all
+    # @articles = Article.all
+    @articles = Article.all_cache
   end
 
   # GET /articles/1

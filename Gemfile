@@ -10,6 +10,7 @@ gem 'factory_girl_rails', '>= 1.1.0', :group => :test
 gem 'cucumber-rails', '>= 1.0.2', :group => :test
 gem 'capybara', '>= 1.0.1', :group => :test
 gem 'launchy', '>= 2.0.5', :group => :test
+gem 'quiet_assets', group: :development
 gem 'devise', '>= 1.4.4'
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -43,3 +44,4 @@ end
 group :test do
   gem 'turn', '0.8.2', :require => false
 end
+
