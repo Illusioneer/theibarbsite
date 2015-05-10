@@ -25,7 +25,7 @@ gem 'unicorn'
 gem 'dalli'
 gem 'geoip'
 gem 'simple_form'
-gem 'rubyracer'
+gem 'therubyracer'
 gem 'execjs'
 
 group :assets do
